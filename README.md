@@ -1,18 +1,17 @@
-# librus-api
-[![npm](https://img.shields.io/npm/v/librus-api.svg?style=flat)](https://www.npmjs.com/package/librus-api)
+# librus-api2
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 Simple node.js Librus scraping API module
 
 ## Installation:
 ```
-npm install librus-api
+npm install librus-api2
 ```
 
 ## Usage
 ```javascript
 'use strict';
-const Librus = require("librus-api");
+const Librus = require("librus-api2");
 
 let client = new Librus();
 client.authorize("login", "pass").then(function () {
