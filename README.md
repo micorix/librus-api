@@ -1,17 +1,17 @@
-# librus-api2
+# thunder-api
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 Simple node.js Librus scraping API module
 
 ## Installation:
 ```
-npm install librus-api2
+npm install thunder-api
 ```
 
 ## Usage
 ```javascript
 'use strict';
-const Librus = require("librus-api2");
+const Librus = require("thunder-api");
 
 let client = new Librus();
 client.authorize("login", "pass").then(function () {
