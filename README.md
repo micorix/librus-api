@@ -5,13 +5,14 @@ Simple node.js Librus scraping API module
 
 ## Installation:
 ```
-npm install thunder-api
+git clone https://github.com/micorix/thunder-api.git
+yarn
 ```
 
 ## Usage
 ```javascript
 'use strict';
-const Librus = require("thunder-api");
+const Librus = require("./thunder-api");
 
 let client = new Librus();
 client.authorize("login", "pass").then(function () {
